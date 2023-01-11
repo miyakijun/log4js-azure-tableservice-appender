@@ -5,9 +5,18 @@
   },
   "name": "log4js-azure-tableservice-appender",
   "version": "0.0.1",
+  "homepage": "https://github.com/miyakijun/log4js-azure-tableservice-appender",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/miyakijun/log4js-azure-tableservice-appender.git"
+  },
+  "bugs": {
+      "url": "https://github.com/miyakijun/log4js-azure-tableservice-appender/issues"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "demo": "node commonjsdemo.js",
+    "tsdemo": "ts-node demo.ts"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +26,13 @@
     "log4js": "^6.7.1",
     "ts-node": "^10.9.1",
     "uuid": "^8.3.2"
-  }
+  },
+  "keywords": [
+    "log4js",
+    "azure",
+    "tableservice",
+    "logging",
+    "accountstorage",
+    "log"
+  ]
 }
